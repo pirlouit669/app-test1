@@ -11,13 +11,28 @@
     </header>
 
 	<p style="margin: auto; height: 50px; width: 100%; text-align: center">Chargement....</p>
-  	
+  	<button id = "vibration">VIBRATION</button>
+	<button id = "vibrationPattern">PATTERN</button>
   	<!-- <script src="phonegap.js"></script> -->
 	  <script type="text/javascript" src="cordova.js"></script>
-	  <script type="text/javascript">
-      app.initialize();
-      function onDeviceReady() {
-            navigator.vibrate(1000);
-      }
+<script type="text/javascript">
+app.initialize();
+function onDeviceReady() {
+    navigator.vibrate(1000);
+}
+</script>
+<script type="text/javascript">
+document.getElementById("vibration").addEventListener("click", vibration);
+document.getElementById("vibrationPattern").addEventListener("click", vibrationPattern);
+function vibration() {
+   var time = 3000;
+   navigator.vibrate(time);
+}
+
+function vibrationPattern() {
+   var pattern = [1000, 1000, 1000, 1000];
+   navigator.vibrate(pattern);
+}
+</script>		  
   </body>
 </html>
