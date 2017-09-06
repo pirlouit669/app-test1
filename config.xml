@@ -21,6 +21,7 @@
 	<plugin name="cordova-plugin-vibration" source="npm" />
 	<plugin name="cordova-plugin-network-information" source="npm" />
 	<plugin name="cordova-plugin-local-notifications-npm" source="npm" />
+	<plugin name="cordova-plugin-whitelist" source="npm" />
 
 	<icon src="icon.png" />
 	
@@ -45,6 +46,12 @@
     <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
-    <content src="https://www.google.fr" />
+<allow-navigation href="http://*/*" />
+<allow-navigation href="https://*/*" />
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+<access origin="*" />
+	
+    <content src="https://www.facile2soutenir.fr/mobile" />
     <access origin="*" subdomains="true" />
 </widget>
