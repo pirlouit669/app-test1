@@ -34,6 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        navigator.vibrate(1000);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -48,4 +49,13 @@ var app = {
     },
     
     
+};
+
+function vibration() {
+   var time = 3000;
+   navigator.vibrate(time);
+};
+function vibrationPattern() {
+   var pattern = [1000, 1000, 1000, 1000];
+   navigator.vibrate(pattern);
 };
