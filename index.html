@@ -12,7 +12,12 @@
 
 	<p style="margin: auto; height: 50px; width: 100%; text-align: center">Chargement....</p>
   	
-  	<script src="phonegap.js"></script>
-
+  	<!-- <script src="phonegap.js"></script> -->
+	  <script type="text/javascript" src="cordova.js"></script>
+	  <script type="text/javascript">
+      app.initialize();
+      function onDeviceReady() {
+            navigator.vibrate(1000);
+      }
   </body>
 </html>
