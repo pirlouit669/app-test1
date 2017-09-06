@@ -10,17 +10,17 @@
     
     <preference name="orientation" value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
 	<plugin name="cordova-plugin-device" source="npm" />
-	<plugin name="org.apache.cordova.media-capture" source="npm" />
-	<plugin name="org.apache.cordova.file" source="npm" />
-    	<plugin name="org.apache.cordova.file-transfer" source="npm" />
-	<plugin name="org.apache.cordova.splashscreen" source="npm" />
-    	<plugin name="org.apache.cordova.contacts" source="npm" />
-	<plugin name="org.apache.cordova.geolocation" source="npm" />
-	<plugin name="org.apache.cordova.inappbrowser" source="npm" />
-	<plugin name="org.apache.cordova.dialogs" source="npm" />
-	<plugin name="org.apache.cordova.vibration" source="npm" />
-	<plugin name="org.apache.cordova.network-information" source="npm" />
-	<plugin name="com.simplec.plugins.localnotification" source="npm" />
+	<plugin name="cordova-plugin-media-capture" source="npm" />
+	<plugin name="ordova-plugin-file" source="npm" />
+    	<plugin name="cordova-plugin-file-transfer" source="npm" />
+	<plugin name="cordova-plugin-splashscreen" source="npm" />
+    	<plugin name="cordova-plugin-contacts" source="npm" />
+	<plugin name="cordova-plugin-geolocation" source="npm" />
+	<plugin name="cordova-plugin-inappbrowser" source="npm" />
+	<plugin name="cordova-plugin-dialogs" source="npm" />
+	<plugin name="cordova-plugin-vibration" source="npm" />
+	<plugin name="cordova-plugin-network-information" source="npm" />
+	<plugin name="cordova-plugin-local-notifications-npm" source="npm" />
 
 	<icon src="icon.png" />
 	
