@@ -52,6 +52,6 @@
 <allow-intent href="https://*/*" />
 <access origin="*" />
 	
-    <content src="https://www.facile2soutenir.fr/mobile" />
+    <content src="https://www.facile2soutenir.fr/mobile-v2" />
     <access origin="*" subdomains="true" />
 </widget>
