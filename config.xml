@@ -11,7 +11,7 @@
     <preference name="orientation" value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
 	<plugin name="cordova-plugin-device" source="npm" />
 	<plugin name="cordova-plugin-media-capture" source="npm" />
-	<plugin name="ordova-plugin-file" source="npm" />
+	<plugin name="cordova-plugin-file" source="npm" />
     	<plugin name="cordova-plugin-file-transfer" source="npm" />
 	<plugin name="cordova-plugin-splashscreen" source="npm" />
     	<plugin name="cordova-plugin-contacts" source="npm" />
