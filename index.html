@@ -13,13 +13,14 @@
 	<p style="margin: auto; height: 50px; width: 100%; text-align: center">Chargement....</p>
   	<button id = "vibration" onClick="navigator.vibrate(1000)">VIBRATION</button>
 	<button id = "vibrationPattern" onClick="window.location.reload()">reload</button>
-  	<!-- <script src="phonegap.js"></script> -->
-	  <script type="text/javascript" src="cordova.js"></script>
-	  <script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript">
-app.initialize();
-//document.getElementById("vibration").addEventListener("click", vibration);
-//document.getElementById("vibrationPattern").addEventListener("click", vibrationPattern);
-</script>		  
+	<button id = "vibrationPattern" onClick="alert('alerte !')">Alerte !</button>
+  	
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		app.initialize();
+		//document.getElementById("vibration").addEventListener("click", vibration);
+		//document.getElementById("vibrationPattern").addEventListener("click", vibrationPattern);
+	</script>		  
   </body>
 </html>
